@@ -109,8 +109,8 @@ document.querySelector('.navigation__page--item-1').addEventListener('click', fu
     var el = arrow.textContent;
 
     if(el === 'keyboard_arrow_down') {
-        document.querySelector('.navigation__page--item-1').style.marginBottom = '43rem';
-        document.querySelector('.inner-1').style.height = '42rem';
+        document.querySelector('.navigation__page--item-1').style.marginBottom = '29.5rem';
+        document.querySelector('.inner-1').style.height = '28.5rem';
         arrow.textContent = "keyboard_arrow_up";
     }else if(el === 'keyboard_arrow_up') {
         document.querySelector('.navigation__page--item-1').style.marginBottom = 0;
@@ -125,8 +125,8 @@ document.querySelector('.navigation__page--item-2').addEventListener('click', fu
     var el = arrow.textContent;
 
     if(el === 'keyboard_arrow_down') {
-        document.querySelector('.navigation__page--item-2').style.marginBottom = '36rem';
-        document.querySelector('.inner-2').style.height = '35rem';
+        document.querySelector('.navigation__page--item-2').style.marginBottom = '23rem';
+        document.querySelector('.inner-2').style.height = '22rem';
         arrow.textContent = "keyboard_arrow_up";
     }else if(el === 'keyboard_arrow_up') {
         document.querySelector('.navigation__page--item-2').style.marginBottom = 0;
@@ -141,8 +141,8 @@ document.querySelector('.navigation__page--item-3').addEventListener('click', fu
     var el = arrow.textContent;
 
     if(el === 'keyboard_arrow_down') {
-        document.querySelector('.navigation__page--item-3').style.marginBottom = '62rem';
-        document.querySelector('.inner-3').style.height = '61rem';
+        document.querySelector('.navigation__page--item-3').style.marginBottom = '74rem';
+        document.querySelector('.inner-3').style.height = '73rem';
         arrow.textContent = "keyboard_arrow_up";
     }else if(el === 'keyboard_arrow_up') {
         document.querySelector('.navigation__page--item-3').style.marginBottom = 0;
@@ -152,7 +152,7 @@ document.querySelector('.navigation__page--item-3').addEventListener('click', fu
 
 });
 
-document.querySelector('.navigation__page--item-4').addEventListener('click', function() {
+/*document.querySelector('.navigation__page--item-4').addEventListener('click', function() {
     var arrow = document.querySelector('.navigation__page--item-4-add');
     var el = arrow.textContent;
 
@@ -182,7 +182,7 @@ document.querySelector('.navigation__page--item-5').addEventListener('click', fu
         arrow.textContent = "keyboard_arrow_down";
     }
 
-});
+});*/
 /*
 document.querySelector('.navigation__page--item-2').addEventListener('click', function() {
     var arrow = document.querySelector('.navigation__page--item-2-add').textContent;

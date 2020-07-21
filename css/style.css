@@ -154,6 +154,11 @@ body {
       color: #fff !important;
       background-color: #005e80;
       cursor: pointer; }
+      .navigation__page--btn-icon {
+        left: 2rem; }
+      .navigation__page--btn-heading {
+        position: absolute;
+        left: 8rem; }
       .navigation__page--btn-close-btn {
         position: absolute;
         right: 3rem;
@@ -180,12 +185,32 @@ body {
     transform: translateY(0); } }
     .navigation__page--item {
       height: 10rem;
-      border-bottom: 1px solid #eee;
       position: relative;
+      border-bottom: 1px solid #eee;
       margin-top: 1rem;
       width: 100%;
       position: relative;
-      transition: 0.3s all; }
+      transition: 0.3s all;
+      /*&-4 {
+                &-add {
+                    position: absolute;
+                    top: 2rem;
+                    right: 2rem;
+                    cursor: pointer;
+                }
+            }
+
+            &-5 {
+                &-add { 
+                    position: absolute;
+                    top: 2rem;
+                    right: 2rem;
+                    cursor: pointer;
+                }
+            }*/ }
+      .navigation__page--item:last-child {
+        border-bottom: 1px solid #c1c1c1;
+        margin-bottom: 1px; }
       .navigation__page--item-inner {
         background-color: #f7f7f7;
         position: absolute;
@@ -218,22 +243,30 @@ body {
         top: 2rem;
         right: 2rem;
         cursor: pointer; }
-      .navigation__page--item-4-add {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        cursor: pointer; }
-      .navigation__page--item-5-add {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
-        cursor: pointer; }
     .navigation__page--link {
       position: absolute;
       color: #333;
       top: 2rem;
       left: 3rem;
       text-decoration: none; }
+
+.outer-list {
+  padding: 2rem; }
+  .outer-list__item {
+    font-size: 2.5rem;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 2rem; }
+
+.navigation__share--title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 5rem; }
+
+.navigation__share--pic {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem; }
 
 .slideshow {
   margin-top: 2rem;
