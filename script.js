@@ -1,4 +1,24 @@
+window.addEventListener('load', () => {
+    registerServiceWorker()
+});
 
+async function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        try {
+            await navigator.serviceWorker.register('./service-worker.js');
+        } catch (e) {
+            console.log('Service Worker registration failed');
+        }
+    }
+}
+        
+        
+        
+        
+        
+        
+        
+        
         document.getElementById("header__top--btn").addEventListener('click', () => {
             document.querySelector('.navigation').style.width = "60rem";
             document.querySelector('.navigation-0').style.width = "100%";
