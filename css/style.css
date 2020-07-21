@@ -257,6 +257,8 @@ body {
     list-style: none;
     text-transform: uppercase;
     margin: 2rem; }
+  .outer-list__icon {
+    font-size: 2rem !important; }
 
 .navigation__share--title {
   font-size: 2rem;
@@ -299,7 +301,45 @@ body {
       margin: 2rem;
       display: inline-block;
       position: relative;
-      margin-bottom: 5rem; }
+      margin-bottom: 5rem;
+      /*
+            .bc1 {
+                background-color: rgba(0, 42, 255, 0.204);
+            }
+            .bc2 {
+                background-color: rgba(255, 0, 0, 0.204);
+            }
+            .bc3 {
+                background-color: rgba(255, 238, 0, 0.204);
+            }
+            .bc4 {
+                background-color: rgba(0, 255, 123, 0.204);
+            }
+            .bc5 {
+                background-color: rgba(238, 0, 255, 0.204);
+            }
+            .bc6 {
+                background-color: rgba(255, 0, 0, 0.204);               
+            }
+            .bc7 {
+                background-color: rgba(255, 217, 0, 0.204);
+            }
+            .bc8 {
+                background-color: rgba(0, 128, 255, 0.204);
+            }
+            .bc9{
+                background-color: rgba(149, 255, 0, 0.204);
+            }
+            .bc10 {
+                background-color: rgba(255, 166, 0, 0.204);
+            }
+            .bc11 {
+                background-color: rgba(195, 0, 255, 0.204);
+            }
+            .bc12 {
+                background-color: rgba(255, 0, 221, 0.204);
+            }
+            */ }
       @media screen and (min-width: 37.5rem) {
         .topcat__wrp--content-box {
           width: 25rem;
@@ -310,7 +350,8 @@ body {
         font-size: 3rem;
         display: block !important;
         border-radius: 50%;
-        text-align: center; }
+        text-align: center;
+        background-color: rgba(0, 94, 128, 0.1); }
         @media screen and (min-width: 37.5rem) {
           .topcat__wrp--content-box .topcat-group {
             border-radius: 2rem; } }
@@ -329,30 +370,6 @@ body {
           top: 12rem;
           text-decoration: none;
           text-transform: uppercase; }
-      .topcat__wrp--content-box .bc1 {
-        background-color: rgba(0, 42, 255, 0.204); }
-      .topcat__wrp--content-box .bc2 {
-        background-color: rgba(255, 0, 0, 0.204); }
-      .topcat__wrp--content-box .bc3 {
-        background-color: rgba(255, 238, 0, 0.204); }
-      .topcat__wrp--content-box .bc4 {
-        background-color: rgba(0, 255, 123, 0.204); }
-      .topcat__wrp--content-box .bc5 {
-        background-color: rgba(238, 0, 255, 0.204); }
-      .topcat__wrp--content-box .bc6 {
-        background-color: rgba(255, 0, 0, 0.204); }
-      .topcat__wrp--content-box .bc7 {
-        background-color: rgba(255, 217, 0, 0.204); }
-      .topcat__wrp--content-box .bc8 {
-        background-color: rgba(0, 128, 255, 0.204); }
-      .topcat__wrp--content-box .bc9 {
-        background-color: rgba(149, 255, 0, 0.204); }
-      .topcat__wrp--content-box .bc10 {
-        background-color: rgba(255, 166, 0, 0.204); }
-      .topcat__wrp--content-box .bc11 {
-        background-color: rgba(195, 0, 255, 0.204); }
-      .topcat__wrp--content-box .bc12 {
-        background-color: rgba(255, 0, 221, 0.204); }
 
 .scroll {
   overflow-x: scroll; }
@@ -725,7 +742,7 @@ body {
 
 /*
     Flaticon icon font: Flaticon
-    Creation date: 11/07/2020 14:26
+    Creation date: 21/07/2020 22:21
     */
 @font-face {
   font-family: "Flaticon";
@@ -788,3 +805,18 @@ body {
 
 .flaticon-kitchen:before {
   content: "\f10b"; }
+
+.flaticon-share:before {
+  content: "\f10c"; }
+
+.flaticon-info:before {
+  content: "\f10d"; }
+
+.flaticon-question:before {
+  content: "\f10e"; }
+
+.flaticon-terms-and-conditions:before {
+  content: "\f10f"; }
+
+.flaticon-register:before {
+  content: "\f110"; }

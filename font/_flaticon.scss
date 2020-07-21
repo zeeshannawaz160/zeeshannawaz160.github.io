@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 11/07/2020 14:26
+    Creation date: 21/07/2020 22:21
     */
 
     @font-face {
@@ -49,6 +49,11 @@
 .flaticon-rupee:before { content: "\f109"; }
 .flaticon-television:before { content: "\f10a"; }
 .flaticon-kitchen:before { content: "\f10b"; }
+.flaticon-share:before { content: "\f10c"; }
+.flaticon-info:before { content: "\f10d"; }
+.flaticon-question:before { content: "\f10e"; }
+.flaticon-terms-and-conditions:before { content: "\f10f"; }
+.flaticon-register:before { content: "\f110"; }
     
     $font-Flaticon-clothes: "\f100";
     $font-Flaticon-shop: "\f101";
@@ -62,3 +67,8 @@
     $font-Flaticon-rupee: "\f109";
     $font-Flaticon-television: "\f10a";
     $font-Flaticon-kitchen: "\f10b";
+    $font-Flaticon-share: "\f10c";
+    $font-Flaticon-info: "\f10d";
+    $font-Flaticon-question: "\f10e";
+    $font-Flaticon-terms-and-conditions: "\f10f";
+    $font-Flaticon-register: "\f110";
