@@ -54,19 +54,23 @@ body {
       color: #005e80;
       text-decoration: none; }
 
-.slide-prev {
-  width: 5rem;
-  height: 10rem;
-  background-color: red;
-  left: 0;
-  z-index: 1; }
-
-.slide-next {
-  width: 5rem;
-  height: 10rem;
-  background-color: red;
-  right: 0;
-  z-index: 1; }
+@media screen and (min-width: 37.5rem) {
+  .slide-prev {
+    width: 5rem;
+    height: 10rem;
+    background-color: #f7f7f7;
+    left: 0;
+    z-index: 1;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .slide-next {
+    width: 5rem;
+    height: 10rem;
+    background-color: #f7f7f7;
+    right: 0;
+    z-index: 1;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); } }
 
 .header {
   background-color: #005e80;
@@ -253,8 +257,9 @@ body {
 .outer-list {
   padding: 2rem; }
   .outer-list__item {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     list-style: none;
+    font-weight: 500;
     text-transform: uppercase;
     margin: 2rem; }
   .outer-list__icon {
@@ -294,7 +299,8 @@ body {
     overflow: hidden;
     white-space: nowrap;
     background-color: #fff;
-    float: left; }
+    float: left;
+    position: relative; }
     .topcat__wrp--content-box {
       width: 15rem;
       height: 15rem;
@@ -440,10 +446,12 @@ body {
 
 .footer {
   width: 100%;
-  height: 60rem;
+  height: 45rem;
   margin: 0;
   padding: 0; }
   .footer__container {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     background-color: #555;
@@ -451,14 +459,14 @@ body {
     font-weight: 500; }
   .footer__logo {
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     position: relative; }
     .footer__logo--img {
       width: 10rem;
       height: 10rem; }
   .footer__content {
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     text-align: center;
     position: relative; }
     .footer__content--layer {
@@ -467,10 +475,10 @@ body {
       text-transform: uppercase;
       text-decoration: none;
       color: #c1c1c1;
-      margin: 0 1rem; }
+      margin: 1rem; }
   .footer__share {
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     display: inline-flex;
     position: relative; }
     .footer__share--layer {
@@ -486,14 +494,15 @@ body {
       margin: 0 1rem; }
   .footer__license {
     width: 100%;
-    height: 15rem;
+    height: 5rem;
     font-size: 2.5rem;
     color: #c1c1c1;
     position: relative;
     text-align: center; }
     .footer__license--copyright {
       position: absolute;
-      width: 100%; }
+      width: 100%;
+      bottom: 0 !important; }
     .footer__license .copyright {
       font-size: 2.5rem; }
 
